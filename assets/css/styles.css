@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Global Styles */
+
+/* YELLOW : #e8ff85 */
+/* DARK GREEN : #0e4841 */
+/* LIGHT GREEN : #05785f */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background: #0e4841;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 32px;
+}
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 15px 0 10px 0;
+  background: linear-gradient(45deg, black, transparent);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  width: auto;
+  height: 45px;
+}
+
+.navbar-brand span {
+  font-size: 30px;
+  color: #fff;
+}
+
+/* HEADER EXPANDABLE SECTION  */
+
+.main-section {
+  background: linear-gradient(100deg, #000000, #ffffff17),
+  url(../images/home_sliders/home-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  padding: 0 40px;
+  border-radius: 20px;
+  margin: 8px 15px 0px 15px;
+}
+
+.main-heading-title {
+  margin: 20% auto;
+}
+
+.main-section-start {
+  margin: 60% auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SECTION SERVICE SECTION  */
+
+.service-card-section-one {
+  background: linear-gradient(100deg, #00000030, #ffffff17),
+    url(../images/services/1/card-1.png);
+}
+.service-card-section-two {
+  background: linear-gradient(100deg, #00000030, #ffffff17),
+    url(../images/services/1/card-2.png);
+}
+
+.service-card-section-one,
+.service-card-section-two {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 40px 40px;
+  border-radius: 20px;
+  margin: 40px 0 0px 0;
+}
+
+.service-card {
+  width: 85%;
+}
+
+.service-card-section-two h5,
+.service-card-section-two p {
+  color: #000000;
+}
+
+/* revenue section  */
+.revenue-section {
+  background: linear-gradient(100deg, #00000030, #ffffff17),
+    url(../images/services/1/yellow-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 40px 0 60px;
+  border-radius: 20px;
+  margin: 40px 0 0px 0;
+}
+.revenue-card {
+  background-color: #fff;
+  color: #000000 !important;
+  border-radius: 20px;
+  text-align: left;
+  margin-top: 8px;
+  padding: 10px 5px;
+  box-shadow: 3px 2px 9px 0px #00000026 !important;
+}
+.revenue-ctn {
+  background-color: #fff;
+  color: #000000 !important;
+  border-radius: 20px;
+  text-align: left;
+  margin-top: 20px;
+  padding: 52px 55px;
+  box-shadow: 3px 2px 9px 0px #00000026 !important;
+}
+.revenue-card p,
+.revenue-ctn p {
+  font-size: 18px;
+  color: #585858;
+}
+
+.revenue-ctn h3,
+.revenue-card h3 {
+  font-size: 28px;
+  color: #585858;
+}
+
+.revenue-ctn h2,
+.revenue-card h2 {
+  font-size: 28px;
+  color: #585858;
+  margin: 0 0 30px 0;
+}
+.card-icon img {
+  height: 80px;
+  background-color: #9d3ef0;
+  border-radius: 50%;
+  padding: 10px;
+}
+.card-icon-one img {
+  background-color: #9d3ef0;
+}
+.card-icon-two img {
+  background-color: #03a28a;
+}
+.card-icon-three img {
+  background-color: #70d660;
+}
+.card-icon-four img {
+  background-color: #d95ab5bc;
+}
+
+/* revenue section  */
+
+/* information point section  */
+
+.info-card {
+  padding: 10px;
+  background: #057960;
+  border-radius: 15px;
+  height: 45px;
+  margin: 0px 0 10px 0;
+}
+.information-card {
+  background: linear-gradient(100deg, #00000030, #ffffff17),
+    url(../images/home_sliders/info-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 40px;
+  border-radius: 20px;
+  margin: 40px 0 0px 0;
+}
+
+.information-content {
+  background: #fff;
+  padding: 30px;
+  color: #000 !important;
+  border-radius: 10px;
+}
+
+.information-content p,
+.information-content h5,
+.information-content h6 {
+  color: #000;
+  text-align: left;
+}
+
+.section-info {
+  margin-top: 80px;
+}
+
+/* information point section  */
+
+/* brands section  */
+
+.partner-card {
+  padding: 30px;
+  border-radius: 50%;
+  height: 105px !important;
+  width: 105px !important;
+  background: #022b25;
+  margin: 30px;
+}
+
+/* HEADER EXPANDABLE SECTION  */
+
+/* Hero Section */
+.hero-section {
+  background: url("images/hero-bg.jpg") no-repeat center center/cover;
+  color: white;
+  padding: 150px 0;
+}
+
+/* SLICK STYLES SECTION  */
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+/* SLICK STYLES SECTION  */
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.footer-section {
+  display: grid;
+  text-align: left;
+}
+
+.footer-section img {
+  height: 70px;
+}
+
+.footer-section ul,
+.footer-section li,
+.footer-section a {
+  list-style: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+
+.footer-section::after  {
+  content: "";
+  border-bottom: 1px solid;
+  position: relative;
+  bottom: 2px;
+}
+
+@media screen and (max-width: 360px) {
+  .section-divider {
+    margin: 70px 0 5px 0 !important;
+  }
+
+  .information-card {
+    padding: 15px;
+  }
+
+  /* Utility classes  */
+  .btn-insure-green {
+    padding: 15px 25px;
+  }
+
+  .navbar {
+    padding: 0 10px 0 10px;
+  }
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .navbar-brand img {
+    width: auto;
+    height: 55px;
+  }
+  .main-section {
+    height: 570px;
+    margin: 0 15px;
+  }
+
+  .main-heading-title {
+    margin-top: 55%;
+  }
+  .main-section-start {
+    margin-top: 0;
+  }
+  .main-section h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .main-section p {
+    text-align: center;
+  }
+
+  /* SERVICE SECTION  */
+
+  .service-card-section-one,
+  .service-card-section-two {
+    padding: 10px 10px;
+  }
+
+  /* REVENUE SSECTION  */
+
+  .revenue-ctn {
+    padding: 52px 25px;
+  }
+
+  .revenue-card h2 {
+    font-size: 28px;
+    padding: 40px 10px 0 10px;
+    text-align: center;
+  }
+
+  .revenue-card h3 {
+    font-size: 25px;
+    margin: 0 0 0 30px;
+  }
+
+  .revenue-card p,
+  .revenue-ctn p {
+    font-size: 16px;
+    color: #585858;
+  }
+
+  .card-info {
+    position: relative;
+    top: 15px;
+    right: 20px;
+  }
+  /* REVENUE SSECTION  */
+}
+
+@media screen and (min-width: 361px) and (max-width: 412px) {
+  /* Utility classes  */
+  .btn-insure-green {
+    padding: 15px 25px;
+  }
+  .ds-block {
+    display: block !important;
+  }
+
+  .ds-none {
+    display: none !important;
+  }
+  /* FIFTH SECTION  */
+}
+
+@media screen and (min-width: 413px) and (max-width: 575px) {
+  /* Utility classes  */
+  .ds-block {
+    display: block !important;
+  }
+
+  .ds-none {
+    display: none !important;
+  }
+  /* FIFTH SECTION  */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Utility classes  */
+  .ds-block {
+    display: block !important;
+  }
+
+  .ds-none {
+    display: none !important;
+  }
+
+  /* FIFTH SECTION  */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .ds-block {
+    display: block !important;
+  }
+
+  .ds-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1119px) {
+  .ds-block {
+    display: block !important;
+  }
+
+  .ds-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1120px) and (max-width: 1399px) {
+  .ds-block {
+    display: block !important;
+  }
+
+  .ds-none {
+    display: none !important;
+  }
+
+  .section-divider {
+    margin: 70px 0 20px 0 !important;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1400px;
+  }
+
+  .section-divider {
+    margin: 70px 0 20px 0 !important;
+  }
+}
+
+@media (min-width: 1599px) and (max-width: 1700px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1540px;
+  }
+
+  .section-divider {
+    margin: 70px 0 20px 0 !important;
+  }
+}
